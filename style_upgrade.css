@@ -1,0 +1,353 @@
+.bar-container {
+            width: 100%;
+            background-color: #f3f3f3;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            position: relative;
+            height: 30px;
+        }
+        .bar {
+            height: 100%;
+            background-color: green;
+            width: 0;
+            transition: width 1s;
+        }
+        .bar-text {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 0;
+            line-height: 30px;
+            color: black;
+            font-weight: bold;
+        }
+
+
+
+
+        .paygobox {
+    display: none;
+    float: left;
+    position: fixed;
+    width: 614px;
+    margin-left: 15px;
+    z-index: 1000;
+    color: #000;
+    text-align: center;
+    border-radius: 0px;
+    padding: 3px 8px 16px 8px;
+    top: 10px;
+    border-color: #000;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    left: 45%;
+    margin-left: -200px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+
+.letsupgradbox {
+   // display: none;
+    float: left;
+    position: fixed;
+    width: 614px;
+    margin-left: 15px;
+    z-index: 1000;
+    color: #000;
+    text-align: center;
+    border-radius: 0px;
+    padding: 3px 8px 16px 8px;
+    top: 10px;
+    border-color: #000;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    left: 45%;
+    margin-left: -200px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.cselect {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    height: 3em;
+    line-height: 3;
+    background: #dedede;
+    overflow: hidden;
+    border-radius: 0.25em;
+    margin-bottom: 4px;
+}
+
+
+.cselect::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: #34495e;
+    pointer-events: none;
+}
+
+.intcon {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cxlabel {
+    width: 29%;
+    font-weight: 700;
+}
+
+.extraformat {
+    font-size: 16px !important;
+    height: 42px !important;
+    width: 300px;
+}
+
+
+.cvv,.postcode,.linesamt {
+    width: 29%;
+    font-size: 16px !important;
+    height: 42px;
+}
+
+.textspacer {
+    margin-bottom: 20px !important;
+}
+
+
+.btn-upgrade {
+    padding: 8px;
+    background: #fbce6cde;
+    padding: 24px;
+    padding: 13px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+    width: 169px;
+    text-align: center;
+    margin-top: 30px;
+    margin: 0px auto;
+    margin-top: 0px;
+}
+.doupgrade {
+}
+
+.upgradevalue {
+    margin-bottom: 12px;
+}
+
+
+.invoceresponse {
+    text-align: center;
+    font-weight: 700;
+    background: #b01d1d;
+    color: #fff;
+}
+
+.invoceresponse {
+    text-align: center;
+    font-weight: 700;
+    background: #b01d1d;
+    color: #fff;
+}
+
+.cimg img {
+    width: 100%;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+.upgradetxt {
+    font-size: 16px;
+    color: #333;
+}
+
+.dobold {
+    font-weight: bold;
+}
+
+.payon {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background: #ccc;
+    margin-bottom: 16px;
+}
+
+.onfocus{
+    background: #0a9509;
+  color: #fff;
+}
+
+
+
+
+
+.mamt, .yamt {
+
+}
+
+/* Active state for selected payment option */
+.payon.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.payon.active .mamt,
+.payon.active .yamt {
+    color: white;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  .error-div {
+            width: 100%;
+            margin: 0px auto;
+            padding: 13px;
+       background-color: #f8d7da; /* Light pink background */
+            color: #721c24; /* Dark red text */
+
+            border-radius: 5px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-bottom:20px;
+        }
+        .error-div h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+        }
+        .error-div p {
+            /*margin: 0 0 15px 0;*/
+            font-size: 1em;
+        }
+
+        .error-div a {
+            color: #0056b3; /* Blue link color */
+            text-decoration: none;
+        }
+        .error-div a:hover {
+            text-decoration: underline;
+        }
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.plan {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan h2 {
+    margin-top: 0;
+    color: #000;
+}
+
+.planprice {
+    border-top: 1px solid #393939;
+    border-bottom: 1px solid #393939;
+    padding-bottom: 9px;
+}
+
+
+.discountcolor{
+  color: #04a512;
+  font-weight:bold;
+}
+
+.monthplan{
+   font-weight: 700;
+    font-size: 1.4rem;
+    color: #000;
+    /* background: #bdbdbd; */
+    padding: 12px;
+    margin-top: 12px;
+    display:block;
+}
+
+.yearplan{
+  
+}
+
+.benefits {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.benefits li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.upgrade {
+         background: #fbce6cde;
+    color: #000;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+    width: 110px;
+    text-align: center;
+    margin-top: 30px;
+    margin: 0px auto;
+    margin-top: 0px;
+}
+
+.upgrade:hover {
+    background-color: #000;
+        color: yellow;
+}
