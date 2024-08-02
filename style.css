@@ -9,7 +9,7 @@
       padding-left: 17px;
       margin-top: 15px;
       margin-bottom: 5px;
-      width: 9%;
+      width: 98%;
       align-items: center;
       /* margin: 0px auto; */
   }
@@ -1009,7 +1009,8 @@
   .right-column {
       background-color: #fff;
       /* White color */
-      /* padding-right: 0; */
+      padding-right: 0px;
+      */
   }
   
   .list-group-item {
@@ -1053,17 +1054,39 @@
   .expp {
       font-size: 10px;
   }
+  /* Main Navigation Bar style */
   
   ul.navi {
+      margin-top: 20px;
       list-style: none;
-      padding: 0px;
+      padding: 5px;
+  }
+  
+  li.navibar.navilink:hover::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 5px;
+      background-color: rgba(251, 206, 108, 0.87);
+  }
+  /* Icon and text styling */
+  
+  li.navibar.navilink i {
+      margin-right: 10px;
+      /* Adjust spacing between icon and text */
+  }
+  
+  li.navibar.navilink span.menu-title {
+      flex: 1;
   }
   
   .navibar {
-      /* background: #4B49AC; */
       margin-bottom: 3px;
       padding: 0rem 0rem;
       color: rgba(0, 0, 0, 0.60);
+      border-radius: 8px;
       font-family: "DM Sans";
       font-size: 16px;
       font-style: normal;
@@ -1087,19 +1110,8 @@
       margin-top: 0.2rem;
   }
   
-  .navibar {
-      border-radius: 8px;
-  }
-  /*
-.navbar .nav .nav-item {
-    -webkit-transition-duration: 0.25s;
-    -moz-transition-duration: 0.25s;
-    -o-transition-duration: 0.25s;
-    transition-duration: 0.25s;
-    transition-property: background;
-    -webkit-transition-property: background;
-}
   */
+  /*End Main Navigation style */
   
   .changecode {
       cursor: pointer;
@@ -1465,6 +1477,12 @@
   
   .container {
       margin-top: 0px;
+  }
+  
+  .welcomepage .container,
+  .welcompage .right-column,
+  .wecomepage .col-md-10 {
+      padding-right: 0px;
   }
   
   .eheader {
@@ -2105,7 +2123,7 @@
   .pure-u-1.pure-u-md-1-2 h2 {
       color: #000;
       font-family: "DM Sans";
-      font-size: 40px;
+      font-size: 32px;
       font-style: normal;
       font-weight: 500;
       line-height: 44px;
@@ -2528,7 +2546,7 @@
   a.user-main.text-dark {
       position: relative;
       top: -1px;
-      left: -4px;
+      left: 10px;
   }
   
   span.desbord-top-menu ul {
