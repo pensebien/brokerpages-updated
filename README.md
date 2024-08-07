@@ -3,7 +3,7 @@
 1. Introduction
    This document outlines the Git Flow process for the BrokerGenius project, which involves feature development using different branches corresponding to Figma pages. The Figma design file for the project can be accessed at [Figma BrokerGenius Memorial](https://www.figma.com/file/1FKNokVp92k4BzllGr8skV/BrokerGenius-memorial-new-14-5-2023?type=design&node-id=635-64&t=njEtstspvXfypzz9-0). The project's GitHub repository is available at [BrokerGenius GitHub Repo](https://github.com/lynnie21/BrokerGenius-figma-to-html).
 
-1. Branching Strategy
+2. Branching Strategy
    The branching strategy for the BrokerGenius project follows the Git Flow model. It includes the following branches:
 
 - **Main Branch**: The main branch represents the production-ready codebase for BrokerGenius. It always reflects the stable and deployable version of the project.
@@ -16,8 +16,8 @@
       - `feature/Users`: Develop features related to the Users page.
       - `feature/dashboard`: Develop features related to the Dashboard page.
 
-  3.0 Workflow Steps
-  The following steps describe the Git Flow process for feature development in the BrokerGenius project:
+  3. Workflow Steps
+     The following steps describe the Git Flow process for feature development in the BrokerGenius project:
 
   3.1. Clone the Main Repository
   To start working on the BrokerGenius project, developers should clone the GitHub repository onto their local machines using the following command:
